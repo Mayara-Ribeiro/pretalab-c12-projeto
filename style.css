@@ -195,26 +195,22 @@ input {
     margin-bottom: 20px;
 }
 
-/* Estilo dos projetos */
 .projeto {
     margin: 20px auto;
 }
 
-/* Título do projeto */
 .projeto h4 {
     font-size: 20px;
     color: #8286bb;
     margin-bottom: 10px;
 }
 
-/* Texto descritivo */
 .projeto p {
     font-size: 16px;
     color: #555;
     margin-bottom: 10px;
 }
 
-/* Link do projeto */
 .projeto a {
     font-size: 16px;
     color: #FF6464;
