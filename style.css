@@ -5,27 +5,26 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Navegação suave */
+    scroll-behavior: smooth; 
 }
 
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
 }
 
 header {
     background-color: white;
-    color: #333;
     padding: 10px 20px;
     position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 1000;
+    border-bottom: 2px solid #ccc;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 header nav a {
@@ -41,32 +40,200 @@ header nav a:focus {
     color: white;
 }
 
-section {
-    padding: 100px 20px;
-}
-
 #inicio {
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 #formacao {
-    background-color: #ddd;
+    background-color: white;
 }
 
 #sobre {
-    background-color: #bbb;
+     background-color: #FF646480;
+     padding: 40px; 
+     width: 100%; 
+     box-sizing: border-box; 
 }
 
 #experiencias {
-    background-color: #999;
+    padding: 40px 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.profissional {
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+.texto {
+    max-width: 60%; 
+    padding-top: 124px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    color: #333;
+    margin-bottom: 20px; 
+    padding-top: 50px;
+}
+
+strong {
+    color: #8286bb;
+}
+
+.texto p {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 20px; 
+    color: #1C1E53;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px; 
+}
+
+input {
+    padding: 15px 60px;
+    color: white;
+    background: #FF6464;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.github {
+    background: white;
+    color: #FF6464;
+    border: 1px solid #FF6464;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    align-self: center;
+    padding-top: 140px;
+}
+
+#formacao {
+    padding: 40px;
+    font-family: Roboto, sans-serif;
+}
+
+#formacao h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.formacao-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.formacao-item {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    border-bottom: 2px solid #ccc;
+}
+
+.formacao-item h4 {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.formacao-item p {
+    margin: 0;
+}
+
+.formaçao-periodo {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding-top: 20px; 
+}
+
+.sobre-imagem {
+    width: 400px;
+    height: auto;
+}
+
+.sobre-texto {
+    font-family: Roboto, sans-serif;
+    color:#1C1E53;
+    line-height: 1.6;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+
+.sobre-texto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #8286bb; 
+}
+
+#experiencias h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos projetos */
+.projeto {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Título do projeto */
+.projeto h4 {
+    font-size: 20px;
+    color: #8286bb;
+    margin-bottom: 10px;
+}
+
+/* Texto descritivo */
+.projeto p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Link do projeto */
+.projeto a {
+    font-size: 16px;
+    color: #FF6464;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background-color: #333;
+    background-color: #FF646480;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
+    height: 100px;
     bottom: 0;
 }
+
